@@ -1,0 +1,335 @@
+@media (max-width:1600px) {   
+
+    #tools svg {
+        margin-top: -180px;
+    }
+
+    .connection__forms input {
+        width: 46%;
+    }
+}
+
+@media (max-width:1440px) {
+    .about__img__2 {
+        width: 400px;
+    }
+
+    #tools svg {
+        margin-top: -220px;
+    }
+
+    .services__blok {
+        width: 40%;
+    }
+
+    .connection__forms input {
+        width: 45%;
+    }
+
+    .connection__forms textarea {
+        width: 96%;
+    }
+}
+
+@media (max-width:1200px) {
+    .header {
+        margin-top: 20px;
+    }
+
+    .hero {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .hero__left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero__left p {
+        width: 70%;
+    }
+
+    .about {
+        margin-bottom: 120px;
+    }
+
+    .about__images {
+        flex-wrap: wrap;
+    }
+
+    .about__img {
+        width: 100%;
+    }
+
+    .about__img__2 {
+        width: 420px;
+        height: 200px;
+    }
+
+    .about__images__2 {
+        flex-direction: row;
+        height: 250px;
+    } 
+
+    #tools svg {
+        margin-top: -270px;
+    }
+
+    .services__bloks {
+        gap: 30px;
+    }
+
+    .services__blok {
+        width: 44%;
+        padding: 10px;
+    }
+
+    .tools__men {
+        margin-left: -110px;
+    }
+
+    .tools__bloks {
+        gap: 50px;
+    }
+
+    #tools {
+        margin-bottom: 100px;
+    }
+
+    .services {
+        margin-bottom: 130px;
+    }
+
+    .portfolio {
+        margin-bottom: 130px;
+    }
+
+    .ourteam {
+        margin-bottom: 100px;
+    }
+
+    .services__blok__text h4 {
+        font-size: 18px;
+    }
+
+    .services__blok__text p {
+        font-size: 14px;
+    }
+
+    .connection__phone {
+        gap: 20px;
+    }
+
+    .connection__forms input {
+        w
+    }
+}
+
+@media (max-width:1024px) {
+    .about__img__2 {
+        width: 350px;
+    }
+
+    .about__text__line {
+        display: none;
+    }
+
+    .tools__men {
+        display: none;
+    }
+
+    .connection__phone {
+        gap: 10px;
+    }
+}
+
+@media (max-width:992px) {
+    .connection {
+        flex-direction: column;
+    }
+
+    .about__images__2  {
+        flex-direction: column;
+        width: 100%;
+        height: 520px;
+    }
+
+    .about__img__2 {
+        width: 94%;
+    }
+
+    .connection__media {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .connection__form {
+        width: 100%;
+    }
+
+    .connection__socialtext {
+        margin: 20px 0 20px 0;
+    }
+
+    .swiper-slide img {
+        height: 400px;
+    }
+
+    .about__text {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .tools__bloks {
+        gap: 50px;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width:768px) {
+    .container {
+        width: 90%;
+    }
+
+    .about__text {
+        gap: 30px;
+    }
+
+    .services__blok {
+        width: 100%;
+    }
+
+    .tools__bloks {
+        gap: 30px;
+    }
+
+    .hero__right img {
+        width: 100%;
+    }
+}
+
+@media (max-width:576px) {
+    .swiper-slide img {
+        height: 300px;
+    }
+
+    .ourteams {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .tools__bloks {
+        gap: 70px;
+    }
+
+    .connection__forms input {
+        width: 43%;
+    }
+
+    .autoplay-progress {
+        display: none;
+    }
+}
+
+@media (max-width:450px) {
+    .connection__forms {
+        gap: 20px;
+    }
+
+    .connection__input {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .connection__forms input {
+        width: 100%;
+    }
+
+    .connection__forms textarea {
+        width: 94%;
+    }
+
+    .hero__left h1 {
+        font-size: 36px;
+    }
+
+    .hero__left h2 {
+        font-size: 28px;
+    }
+
+    .hero__left p {
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .about__img__2 {
+        width: 90%;
+    }
+
+    .about__img {
+        height: 230px;
+    }
+
+    .tools__bloks {
+        gap: 40px;
+    }
+
+    .swiper-slide img {
+        height: 200px;
+    }
+}
+
+
+/* !ANIMATION */
+
+.services__blok:hover {
+    border-color: #FFF;
+}
+
+.about__projects a:hover {
+    color: rgba(172, 10, 186, 0.50);
+}
+
+.about__projects a:hover svg{
+    fill: rgba(172, 10, 186, 0.50);
+}
+
+.connection__forms input:active, .connection__forms textarea:active {
+    outline: 1px solid #FFF;
+}
+
+.connection__forms button:hover {
+    outline: 2px solid rgba(172, 10, 186, 0.50);
+    background: none;
+}
+
+.connection__forms button:active {
+    outline: 2px solid rgba(172, 10, 186, 0.50);
+    background: none;
+    color: rgba(172, 10, 186, 0.50);
+}
+
+.connection__phone:hover a{
+    color: rgba(172, 10, 186, 0.50);
+}
+
+.connection__phone:hover svg{
+    fill: #FFF;
+}
+
+.connection__icons svg:hover {
+    stroke: #FFF;
+}
+
+.onfooter__mail:hover a {
+    color: rgba(172, 10, 186, 0.50);
+}
+
+.onfooter__mail:hover svg{
+    fill: #FFF;
+}
